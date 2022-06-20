@@ -11,7 +11,7 @@ const InfoCard = (props) => {
             ease-out first:border-t"
         >
             <div className="relative h-24 w-40 md:h-52 md:w-80 flex-shrink-0">
-                <Image className="rounded-2xl" src={img} layout='fill' objectFit='cover' />
+                <Image alt="info" className="rounded-2xl" src={img} layout='fill' objectFit='cover' />
             </div>
 
             <div className="flex flex-col flex-grow pl-5">

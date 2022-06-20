@@ -65,6 +65,7 @@ const Header = ({placeholder}) => {
                     layout="fill"
                     objectFit='contain'
                     objectPosition='left'
+                    alt="header"
                 />
             </div>
             <div className="flex items-center rounded-full py-2 
